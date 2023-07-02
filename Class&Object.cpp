@@ -6,10 +6,12 @@ class Hero
 {
 private:
     // has properties like health, height, weight and color
+    // private data members
     int health;
 
 public:
     // setter and getter methods
+    //public member functions
     void set_health(int health)
     {
         this->health = health;
