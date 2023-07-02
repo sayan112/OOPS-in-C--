@@ -1,5 +1,8 @@
+//                                                 ******** Encapsulation *********
+// Encapsulation  is about wrapping data and methods into a single class and protecting it from outside intervention.****
+
 #include<iostream>
-using namespace std;
+    using namespace std;
  class studentDetails{
      // private data members
  private:
@@ -45,9 +48,12 @@ int main ()
 {
 
      studentDetails sayan;
+     // setting the values of the variables
      sayan.setname("Sayan Maitra");
-     sayan.setaddress("london");
-      sayan.setage(18);
-      cout << sayan.getname()<<" "<< sayan.getaddress() <<" ";
+     sayan.setaddress("West Bengal");
+      sayan.setage(21);
+// Printing the values of student object
+      cout << sayan.getname()<<" ";
+      cout << sayan.getaddress() <<" ";
       cout<<sayan.getage() << endl;
 }
