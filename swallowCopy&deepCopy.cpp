@@ -1,4 +1,4 @@
-// Shallow Copy->
+//                                        ******* Shallow Copy ***********
 // An object is created by simply copying the data of all variables of the original object.Here, the pointer will be copied but not the memory it points to.It means that the original object and the created copy will now point to the same memory address, which is generally not preferred.
 
 //  *** default copy constuctor perfroms swallow copy ***
@@ -84,7 +84,10 @@ int main()
  //   this is called swallow copy
 }
 
-// now deep copy
+
+
+
+//                                               *********** Deep Copy ***************
 // An object is created by copying all the fields, and it also allocates similar memory resources with the same value to the object. To perform Deep copy, we need to explicitly define the copy constructor and assign dynamic memory as well if required. Also, it is necessary to allocate memory to the other constructors’ variables dynamically. A deep copy means creating a new array and copying over the values. Changes to the array values referred to will not result in changes to the array data refers to.
 
 #include <bits./stdc++.h>

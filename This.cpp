@@ -1,25 +1,26 @@
+//                            ******** This ***********
 //this pointer holds the address of the current object.In simple words, you can say that this pointer points to the current object of the class.
-//  #include <bits/stdc++.h>
-//   using namespace std;
-//   class car
-//   {
-//   private:
-//    int weight;
-//    string model;
+ #include <bits/stdc++.h>
+  using namespace std;
+  class car
+  {
+  private:
+   int weight;
+   string model;
 
-//     /* data */
-//   public:
-//     car (int weight, string model)
-//     {
-// this->weight = weight;   
-//  this->model = model;
-//     }
-//      void getvalues()
-//      {
-//         cout <<weight<<endl;
-//          cout << model<<endl;
-//      }
-//   };
+    /* data */
+  public:
+    car (int weight, string model)
+    {
+this->weight = weight;   
+ this->model = model;
+    }
+     void getvalues()
+     {
+        cout <<weight<<endl;
+         cout << model<<endl;
+     }
+  };
 
 
 //    int main ()
