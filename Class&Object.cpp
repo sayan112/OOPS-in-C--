@@ -1,3 +1,9 @@
+/*
+OOPS stands for Object-Oriented Programming (OOP). It is a programming methodlogy that organizes software design around objects, which are instances of classes. In object-oriented programming, objects are the fundamental building blocks used to represent real-world entities or abstract concepts. OOP focuses on encapsulating data (attributes) and behavior (methods) into objects, allowing for modular and reusable code.
+
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -7,13 +13,14 @@ class Hero
 private:
     // has properties like health, height, weight and color
     // private data members
-    int health;
+    int health=20;
 
 public:
     // setter and getter methods
     //public member functions
     void set_health(int health)
     {
+        
         this->health = health;
     }
     void get_health()

@@ -144,4 +144,10 @@ unknown.print_details();
 return 0;
 }
 
+/* in short
+A constructor is a special type of member function that is called automatically when an object is created.
+A constructor with no parameters is known as a default constructor.
+a constructor with parameters is known as a parameterized constructor. This is the preferred method to initialize member data.
+The copy constructor in C++ is used to copy data of one object to another.
 
+*/

@@ -27,7 +27,7 @@ private:
 
 public:
     // public member functions
-    
+
     // set method for student name to set  the value in private variable Name
     void setname(string name)
     {
