@@ -125,6 +125,7 @@ public:
 class Dog : public Animal
 {
 public:
+// redefine your parent class method based on requirements , its called method overiding.
   void color()
   {
     cout << "black" << endl;

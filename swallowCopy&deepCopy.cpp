@@ -1,11 +1,11 @@
 //                                        ******* Shallow Copy ***********
 // An object is created by simply copying the data of all variables of the original object.Here, the pointer will be copied but not the memory it points to.It means that the original object and the created copy will now point to the same memory address, which is generally not preferred.
-
+// his will create ambiguity and run - time errors
 //  *** default copy constuctor perfroms swallow copy ***
 
 
 #include <bits./stdc++.h>
-using namespace std;
+    using namespace std;
 
 class Hero
 {
@@ -38,7 +38,7 @@ public:
     {
         this->level = level;
     }
-    void setName(char name[])
+     void setName(char name[])
     {
         strcpy(this->name, name);
         cout << name;
@@ -180,3 +180,9 @@ int main()
 // name: sayan
 // Level: A
 // health: 12
+
+// In C++, a shallow copy of an object is a copy where the copied object simply points to the same memory address as the original object. This means that any changes made to the copied object will also affect the original object, as they both refer to the same data in memory.
+
+// On the other hand, a deep copy in C++ creates a completely independent copy of the original object. In this case, a new memory space is allocated for the copied object, and all the data from the original object is copied into this new memory space. Consequently, the copied object and the original object have different memory addresses.
+
+// Therefore, it is correct to say that in a shallow copy, the original object and the created copy will point to the same memory address, while in a deep copy, they will have different memory addresses.

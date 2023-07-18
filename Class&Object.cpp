@@ -44,6 +44,28 @@ int32_t main()
 
 // In object - oriented programming(OOP) with C++,
 
-// A class is a blueprint or template that defines the structure and behavior of objects. It serves as a blueprint for creating multiple instances of objects with similar characteristics and functionalities. A class encapsulates data members (properties) and member functions (methods) that operate on those data members.
+// A class is a blueprint or template that defines the structure and behavior of objects.  A class encapsulates data members (properties) and member functions (methods) that operate on those data members.
 
 // An object, on the other hand, is an instance of a class. It is created from the class blueprint and represents a specific entity or element that has its own unique state and behavior. You can create multiple objects from the same class, each with its own distinct data values.
+
+// Access specifier defines how the members of the class can be accessed. In C++, there are 3 types of access specifiers: public, private, and protected.
+// Access specifier
+// public: members can be accessed outside the class.
+// private: members cannot be accessed outside the class.
+// protected: members cannot be accessed(viewed) from outside the class, but can be accessed in inherited classes(subclasses).
+
+class Dog
+{                        // class ClassName
+public:                  // Access specifiers
+    string breed, color; // Data members
+
+    void displayColor()
+    { // Member functions
+        cout << color << " ";
+    }
+
+    void displayBreed()
+    {
+        cout << breed << " ";
+    }
+}; // end with semicolon

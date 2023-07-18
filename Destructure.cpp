@@ -40,8 +40,7 @@ int main()
 //  ❖It has no return type, not even void.
 //  ❖When you do not specify any destructor in a class, the compiler generates a default destructor and inserts it into your code.
 
-
-
+// A destructor is a special member function with the same name as the class but preceded by a tilde (~). It is called automatically when an object is destroyed or goes out of scope. The purpose of a destructor is to clean up any resources allocated by the object, such as dynamic memory, file handles, or network connections.
 
 //  Interview Questions  
 
